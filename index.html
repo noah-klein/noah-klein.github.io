@@ -1,62 +1,96 @@
 <!DOCTYPE html>
 <html>
+<link href="https://fonts.googleapis.com/css?family=Fondamento" rel="stylesheet">
 <head>
-  <title>Noah Klein, Dude</title>
+  <title>Nicole</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css"
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <h1 id="header">Noah Klein</h1>
-    <p>
-      <img src="noahkleinprofile.jpg">
-    </p>
-    <h2>Just a guy...</h2>
-    <h3>Tel Aviv, IL</h3>
-    <div>
-      <h4>Don't bother connecting with me</h4>
-      <ul>
-        <li><a href="mailto:noah.klein@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="http://twitter.com/NoahKlein88">Twitter</a></li>
-        <li><a href="http://facebook.com/noah.klein.963">Facebook</a></li>
-      </ul>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>Nicole</h1>
+      <h2>This website is a shrine to my wife. Mostly to bug her.<br />But also because I love her.<br /><br /><br /></h2>
+      <h3><a href="page2.html" class="btn btn-primary">Meet her</a></h3>
     </div>
-    <div>
-      <h4 class="summary-experience-skills-hobbies">Summary</h4>
-      <p>
-        Noah is currently pursuing his MBA at the Kellogg School of Management. Prior to his MBA, he served as a combat commander in the IDF and worked on multiple startups. Outside of his professional life, he enjoys creating (but more importantly drinking) craft cocktails.
-      </p>
-    </div>
-    <div>
-      <h4 class="summary-experience-skills-hobbies">Experience</h4>
-      <div>
-        <h5 class="job-descriptions">MBA Candidate, Kellogg School of Management</h5>
-        <p>Kicking ass and taking names at the best MBA in the US of A.</p>
-      </div>
-      <div>
-        <div>
-          <h5 class="job-descriptions">Sales & Business Development Manager, Nuvo Group</h5>
-          <p>Wearable devices for pregnancy - who WOULD'T want to get 24/7 insight into the womb??</p>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Assignment 1.html">NICOLE</a>
         </div>
-        <div>
-        <h5 class="job-descriptions">First Sergeant, IDF</h5>
-        <p>Dealt with bad guys. No more questions.</p>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="page2.html">Her life - Super interesting<span class="sr-only">(current)</span></a></li>
+            <li><a href="page3.html">THYME by Nicole</a></li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="nicoleimage9.jpg" width="100%" height="100%">
+      </div>
+      <div class="col-sm-4">
+        <img src="nicoleimage6.jpg" width="100%" height="100%">
+      </div>
+      <div class="col-sm-4">
+        <img src="nicoleimage8.jpg" width="100%" height="100%">
       </div>
     </div>
-    <div>
-      <h4 class="summary-experience-skills-hobbies">Skills</h4>
-      <ul>
-        <li>Marketing</li>
-        <li>Mixology</li>
-      </ul>
-    </div>
-    <div>
-      <h4 class="summary-experience-skills-hobbies">Hobbies</h4>
-      <ul>
-        <li>Binge drinking</li>
-      </ul>
-    </div>
+<div class="jumbotron text-center">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">
+  <h1>THYME by Nicole</h1>
+  <p>Nicole is so badass she started her own business - THYME by Nicole. Preparing home-cooked meals for young professionals in Tel Aviv, Nicole started a successful young business before giving it up to support her husband pursue an MBA.<br /><br /></p>
+  <p><a class="btn btn-primary btn-lg" href="page3.html" role="button">More</a></p>
+</div>
+    <div class="row">
+  <div class="col-md-3">Nicole</div>
+  <div class="col-md-3">Learn More</div>
+  <div class="col-md-3">In the Press</div>
+  <div class="col-md-3">Contact Us</div>
+</div>
+<div class="row">
+  <div class="col-md-3">THYME by Nicole</div>
+  <div class="col-md-3">Her Story</div>
+  <div class="col-md-3">News & Events</div>
+  <div class="col-md-3">Privacy Policy</div>
+</div>
+<div class="row">
+  <div class="col-md-3">More stuff</div>
+  <div class="col-md-3"></div>
+  <div class="col-md-3"></div>
+  <div class="col-md-3">And more</div>
+</div>
   </div>
 </body>
 </html>
