@@ -11,6 +11,7 @@
 }
 .page-header {
   font-family: "Boogaloo", cursive;
+  padding: 10px;
 }
 .panel{
   font-family: "Boogaloo", cursive;
@@ -20,8 +21,13 @@
   font-family: "Boogaloo", cursive;
   font-size: 120%;
 }
-.navbar{
+.navbar {
   font-family: "Arvo", serif;
+}
+#mynavbar {
+  font-family: "Arvo", serif;
+  position: fixed;
+  width: 95%;
 }
 .col-md-3{
   font-family: "Arvo", serif;
